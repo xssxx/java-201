@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.BookController">
+   <children>
+      <Label layoutX="66.0" layoutY="36.0" text="Title">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="72.0" text="Author">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="108.0" text="Year">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="titleLabel" layoutX="122.0" layoutY="35.0" text="title" textFill="#5970bc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="authorLabel" layoutX="122.0" layoutY="71.0" text="author name" textFill="#5970bc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="yearLabel" layoutX="122.0" layoutY="107.0" text="2023" textFill="#5970bc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label />
+      <Button layoutX="255.0" layoutY="348.0" mnemonicParsing="false" onAction="#onButtonClick" text="แนะนำตัว">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="39.0" layoutY="185.0" mnemonicParsing="false" onAction="#onBorrowButton" prefHeight="35.0" prefWidth="68.0" text="ยืม">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="129.0" layoutY="185.0" mnemonicParsing="false" onAction="#onReturnButton" prefHeight="35.0" prefWidth="68.0" text="คืน">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="59.0" layoutY="144.0" text="สถานะ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="statusLabel" layoutX="122.0" layoutY="144.0" text="Label" textFill="#2665bc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="cover" fitHeight="150.0" fitWidth="200.0" layoutX="286.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../assets/barbie.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

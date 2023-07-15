@@ -1,0 +1,8 @@
+ku\cs\basicjavafx\HelloApplication.class
+ku\cs\models\Book.class
+module-info.class
+ku\cs\services\FXRouter$1.class
+ku\cs\controllers\HelloController.class
+ku\cs\services\FXRouter.class
+ku\cs\services\FXRouter$RouteScene.class
+ku\cs\controllers\BookController.class
